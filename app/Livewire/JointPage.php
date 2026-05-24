@@ -71,7 +71,7 @@ if ($this->photo) {
 Individual::create($validatedData);
 $this->reset(['membership_type', 'photo', 'name', 'lastname', 'firstname', 'gender', 'birth_date', 'email', 'phone', 'province_id', 'country_residence', 'city_district', 'address', 'motivation', 'preferred_language']);
         $this->iteration++; 
- LivewireAlert::title("Merci d'avoir rejoint la Colalition C4")
+ LivewireAlert::title("Merci d'avoir rejoint la Coalition C4")
             ->success()
             ->withOptions([
                 'background' => '#E8F5E9',
