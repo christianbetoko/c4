@@ -14,8 +14,8 @@
     <section id="portfolio" class="portfolio_area section-padding">
         <div class="container-fluid">
             <div class="section-title text-center">
-                <h2 class="section-title-white">Matériel de Mobilisation</h2>
-                <p class="section-title-white">Téléchargez et partagez nos visuels officiels, documents juridiques et guides de terrain pour propager le message de la Coalition C4.</p>
+                <h2 class="">Matériel de Mobilisation</h2>
+                <p class="">Téléchargez et partagez nos visuels officiels, documents juridiques et guides de terrain pour propager le message de la Coalition C4.</p>
             </div>  
 
             <div class="col-lg-12 text-center">
