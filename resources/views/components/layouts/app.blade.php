@@ -9,8 +9,8 @@
         <title>{{ $title ?? 'Page Title' }}</title>
        
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Monoline - Design Agency HTML Template">
-		<meta name="keywords" content="agency, business, corporate, creative, html5, modern, multipurpose, One Page, parallax, startup ">		
+		<meta name="description" content="C4 - Coalition des Congolais pour le Changement de la Constitution">
+		<meta name="keywords" content="C4, Coalition, Congolais, Changement, Constitution, RDC">		
 		<!-- SITE TITLE -->
 				 <!-- Favicons -->
   <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
