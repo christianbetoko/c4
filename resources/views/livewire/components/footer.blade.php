@@ -5,7 +5,7 @@
 				<div class="row footer_bg">						
 					<div class="col-lg-3 col-sm-6 col-xs-12">
 						<div class="footer_logo">
-							<img src="{{asset('storage/'. $enterprise->logo_with_bg)}}" alt="{{ $enterprise->name }}" />
+							<img src="{{asset('storage/'. $enterprise->logo_without_bg)}}" alt="{{ $enterprise->name }}" />
 							{!! $enterprise->about !!}
 						</div>
 						<div>

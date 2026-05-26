@@ -7,7 +7,9 @@ use App\Models\Slider;
 use App\Models\Partner;
 use App\Models\Category;
 use App\Models\Comment;
+use App\Models\Individual;
 use App\Models\Enterprise;
+
 use App\Models\Post;
 
 use Carbon\Carbon;
@@ -22,6 +24,7 @@ class HomePage extends Component
             $partners = Partner::where('status', true)->get();
             $enterprise = Enterprise::first();
              $posts = Post::where('status','published')->latest()->take(3)->get();
-        return view('livewire.home-page', compact('sliders', 'partners', 'enterprise', 'posts'));
+             $individuals=Individual::where('is_testimonial',true)->inRandomOrder()->take(4)->get();
+        return view('livewire.home-page', compact('sliders', 'partners', 'enterprise', 'posts', 'individuals'));
     }
 }
