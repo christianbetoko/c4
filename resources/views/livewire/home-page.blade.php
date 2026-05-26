@@ -159,7 +159,7 @@
 			<div class="container">
 				<div class="section-title text-center">
 					<h2>Nos Motivations</h2>
-					<p>Ce que disent les congolais sur le changement de constitution</p>
+					<p>Ce que disent les congolais sur le changement de la constitution</p>
 				</div>				
 				<div class="row">					
 					<div class="col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
