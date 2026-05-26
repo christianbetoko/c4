@@ -42,7 +42,7 @@ class PartnerResource extends Resource
                         Forms\Components\FileUpload::make('image')
                             ->label('Logo du partenaire')
                             ->image()
-                            ->directory('partners') // Stocké dans storage/app/public/partners
+                             // Stocké dans storage/app/public/partners
                             ->imageEditor() // Permet de recadrer le logo directement
                             ->maxSize(2048), // Max 2Mo
 

@@ -77,14 +77,14 @@ class EnterpriseResource extends Resource
                                         FileUpload::make('logo_with_bg')
                                             ->label('Logo (Avec fond)')
                                             ->image()
-                                            ->directory('enterprise/logos')
+                                         
                                          
                                          ,
 
                                         FileUpload::make('logo_without_bg')
                                             ->label('Logo (Transparent / Sans fond)')
                                             ->image()
-                                            ->directory('enterprise/logos'),
+                                            ,
                                     ]),
 
                                 Section::make('Coordonnées & Liens')

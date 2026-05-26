@@ -34,11 +34,11 @@ class IndividualResource extends Resource
                             ->schema([
                                 Forms\Components\FileUpload::make('photo')
                                     ->image()
-                                    ->directory('individuals-photos')
+                                   
                                     ->avatar()
                                     ->imageEditor()
                                     ->circleCropper()
-                                    ->maxSize(1024)
+                                    ->maxSize(4096)
                                     ->columnSpanFull(),
 
                                 Grid::make(3)->schema([

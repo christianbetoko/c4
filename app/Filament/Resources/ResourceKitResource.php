@@ -81,7 +81,7 @@ class ResourceKitResource extends Resource
                         Forms\Components\FileUpload::make('thumbnail_path')
                             ->label('Image d\'aperçu / Miniature (Thumbnail)')
                             ->image()
-                            ->directory('resource_kits/thumbnails')
+                           
                             ->disk('public')
                             ->columnSpanFull(),
                     ])->columns(2),

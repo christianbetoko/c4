@@ -39,7 +39,7 @@ class SliderResource extends Resource
                         FileUpload::make('image')
                             ->label('Image du slide')
                             ->image()
-                            ->directory('sliders') // Stocké dans storage/app/public/sliders
+                             // Stocké dans storage/app/public/sliders
                             ->imageEditor()
                             ->required(),
 
