@@ -158,9 +158,9 @@
 		<div class="testimonial_area section-padding">
 			<div class="container">
 				<div class="section-title text-center">
-					<h2>Nos Motivations</h2>
-					<p>Ce que disent les congolais sur le changement de la constitution</p>
-				</div>				
+    <h2>Pourquoi le Changement ?</h2>
+    <p>Écouter la voix de la Nation : briser les chaînes des textes de belligérance pour bâtir l'avenir de la RDC.</p>
+</div>			
 				<div class="row">					
 					<div class="col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
 						<div class="row">
