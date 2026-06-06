@@ -158,7 +158,7 @@
 		<div class="testimonial_area section-padding">
 			<div class="container">
 				<div class="section-title text-center">
-    <h2>Pourquoi le Changement ?</h2>
+    <h2>Que disent les citoyens?</h2>
     <p>Écouter la voix de la Nation : briser les chaînes des textes de belligérance pour bâtir l'avenir de la RDC.</p>
 </div>			
 				<div class="row">					

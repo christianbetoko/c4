@@ -29,3 +29,7 @@ Route::get('/outils', ToolsPage::class)->name('tools');
 Route::get('/rejoindre', JointPage::class)->name('joint');
 Route::get('/actualites', BlogPage::class)->name('blog');          
 Route::get('/actualites/{category_slug}/{slug}', SingleBlogPage::class)->name('blog.single');         
+
+Route::fallback(function () {
+    return view('livewire.error-page');
+});
